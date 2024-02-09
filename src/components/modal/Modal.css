@@ -1,7 +1,7 @@
 dialog {
     width: 600px;
     min-height: 100px;
-    margin: 20rem auto;
+    margin: auto auto;
     padding: 1rem;
     border: 1 solid black;
     border-radius: 10px;
