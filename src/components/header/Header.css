@@ -1,0 +1,36 @@
+
+.logo {
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0em;
+    color: #2C363F;
+  }
+
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    transition: all .5s ease-in-out;
+    height: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    text-decoration: none;
+    color: #2C363F;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: all .5s ease-in-out;
+    padding: 0 1rem;
+  }

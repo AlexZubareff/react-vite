@@ -1,0 +1,66 @@
+dialog {
+    width: 600px;
+    min-height: 100px;
+    margin: 20rem auto;
+    padding: 1rem;
+    border: 1 solid black;
+    border-radius: 10px;
+    z-index: 100;
+    background-color: #F2F5EA;
+}
+
+.close-button {
+    /* display: inline-block; */
+    margin: 0 0 16px 550px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* border: none; */
+    border-radius: 50%;
+    font-size: 2rem;
+    border: 1px solid #2C363F;
+    color: #2C363F;
+    background-color: #F2F5EA;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+input {
+    height: 2rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+textarea {
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.send-button {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    color: #F2F5EA;;
+    padding: 0.75rem 1.875rem;
+    border: 3px solid #2C363F;
+    background-color: #2C363F;
+    text-transform: uppercase;
+    margin: 0 auto;
+
+}
+
+.send-button:hover {
+    cursor: pointer;
+}
+

@@ -1,0 +1,15 @@
+.contact-btn {
+
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0em;
+    color: #2C363F;
+    padding: 0.75rem 1.875rem;
+    border: 3px solid #2C363F;
+    background-color: #F2F5EA;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+}
