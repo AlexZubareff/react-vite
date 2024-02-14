@@ -1,8 +1,9 @@
 // import { useState } from 'react'
-import {Homepage} from './pages/Homepage';
-import {Aboutpage} from './pages/Aboutpage';
-import { Blogpage } from './pages/Blogpage';
-import { Reviewspage } from './pages/Reviewspage';
+import {Home} from './pages/Home';
+import {About} from './pages/About';
+import { Blog } from './pages/Blog';
+import { Reviews } from './pages/Reviews';
+import { Review } from './pages/Review';
 import { Mainlayout } from './layout/Mainlayout';
 import { Routes, Route } from "react-router-dom";
 import { Contact } from './pages/Contact';
@@ -15,12 +16,13 @@ function App() {
 
 <Routes>
   <Route path="/" element={<Mainlayout />}>
-    <Route index element={<Homepage />}/>
-    <Route path="about" element={<Aboutpage />}/>
-    <Route path="blog" element={<Blogpage />}/>
-    <Route path="review" element={<Reviewspage />}/>
-    <Route path="contact" element={<Contact />}/>
-    <Route path="*" element={<Homepage />}/>
+    <Route index element={<Home />}/>
+    <Route path="about" element={<About />}/>
+    <Route path="blog" element={<Blog />}/>
+    <Route path="review" element={<Reviews />}/>
+    <Route path="review/:id" element={<Review />}/>
+        <Route path="contact" element={<Contact />}/>
+    <Route path="*" element={<Home />}/>
 
   </Route>
 

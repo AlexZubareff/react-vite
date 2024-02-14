@@ -1,0 +1,13 @@
+.dots-item {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2C363F;
+    border-radius: 50%;
+    background-color: #2C363F;
+}
+.dots-container {
+    min-width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

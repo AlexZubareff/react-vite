@@ -1,8 +1,8 @@
-export function Aboutpage() {
+export function Blog() {
     return (
         <>
         <div>
-            <h1>Aboutpage</h1>
+            <h1>Blogpage</h1>
         </div>
         </>
     )

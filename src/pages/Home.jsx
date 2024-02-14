@@ -4,7 +4,7 @@ import  Modal  from "../components/modal/Modal";
 import MyPhoto from "../img/photo.jpg";
 // import { Form } from "../components/form/Form";
 
-export function Homepage() {
+export function Home() {
     const [isModalOpen, setIsModalOpen] = useState(false)
 
     // function openModal() {

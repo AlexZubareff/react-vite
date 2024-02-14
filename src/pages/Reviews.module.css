@@ -1,0 +1,18 @@
+.get-post-btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    color: #F2F5EA;;
+    padding: 0.75rem 1.875rem;
+    border: 3px solid #2C363F;
+    background-color: #2C363F;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+  
+  .get-post-btn:hover {
+    cursor: pointer;
+  }
+
+ 
