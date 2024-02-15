@@ -7,9 +7,11 @@ import Slide from '../components/Slide/Slide';
 export const SliderContext = createContext();
 
 export function About() {
-const [data, setData] = useState(SLIDER);
+const [slideArr, setslideArr] = useState(SLIDER);
+const [currentSlide, setCurrentSlide] = useState(0)
 
-// console.log(SLIDER.length);
+console.log(slideArr[currentSlide]);
+console.log(currentSlide);
 
 // useEffect(() => {
 //   const getData = () => {
@@ -23,9 +25,10 @@ const [data, setData] = useState(SLIDER);
         <div>
             <h1>Aboutpage</h1>
             <SliderContext.Provider value={{
-                slideCount: data.length,
+                slideCount: slideArr.length,
+                currentSlide,
             }}>
-            <Slide />    
+            <Slide slide={slideArr[currentSlide]} />    
             <Dots/>
             </SliderContext.Provider>
            

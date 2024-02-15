@@ -13,7 +13,7 @@ const {slideCount} = useContext(SliderContext);
       const dots = [];
       for (let i = 0; i < slideCount; i++) {
 
-          dots.push(<Dot />)
+          dots.push(<Dot number={i}/>)
 
       }
       console.log(dots)
