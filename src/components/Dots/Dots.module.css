@@ -6,11 +6,17 @@
     background-color: #F2F5EA;;;
     margin: 0.5rem;
 }
+
+.dots-item:hover {
+cursor: pointer;
+}
+
 .dots-container {
     min-width: 50px;
     display: flex;
     flex-direction: row;
     justify-content:center;
+    margin: 1rem 0 2rem 0;
 }
 
 .dot-active {
@@ -22,3 +28,4 @@
     margin: 0.5rem;
     background-color: #2C363F;
 }
+

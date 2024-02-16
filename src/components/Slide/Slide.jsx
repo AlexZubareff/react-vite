@@ -1,13 +1,11 @@
 import classes from './Slide.module.css';
 
+// Компонент возвращает слайд
 export default function Slide ({slide}) {
-    console.log(`../../img/sliderimg/` + `${slide.image}`);
     return (
-    <section >
+    <section className=''>
         <img className={classes['slide-img']} src={`../../../src/img/sliderimg/${slide.image}`} />
-
-        
-        <div>
+        <div className={classes['image-title']}>
             <h5>{slide.title}</h5>
         </div>
 
